@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace BMCTutorial.Models
 {
-    public class PersonModel
+    public partial class PersonModel
     {
         public int ID { get; set; }
         public string Name { get; set; }
